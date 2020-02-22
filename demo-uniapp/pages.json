@@ -1,0 +1,56 @@
+{
+	"pages": [{
+		"path": "pages/login"
+	}, {
+		"path": "pages/register"
+	}, {
+		"path": "pages/product/product"
+	}, {
+		"path": "pages/user/user"
+	}, {
+		"path": "pages/paper/paper"
+	}, {
+		"path": "pages/order/order"
+	}, {
+		"path": "pages/product/buy"
+	}, {
+		"path": "pages/user/tixian"
+	}, {
+		"path": "pages/user/kefu"
+	}],
+	"globalStyle": {
+		"app-plus": {
+			"bounce": "none", //关闭窗口回弹效果
+			"titleNView": false,
+			"softinputNavBar": "none",
+			"scrollIndicator": "none"
+		}
+	},
+	"tabBar": {
+		"color": "#8a8a8a",
+		"selectedColor": "#FAB116",
+		"borderStyle": "#212024",
+		"backgroundColor": "#212024",
+		"list": [{
+			"pagePath": "pages/product/product",
+			"iconPath": "/static/product.png",
+			"selectedIconPath": "/static/product_active.png",
+			"text": "商品行情"
+		}, {
+			"pagePath": "pages/order/order",
+			"iconPath": "/static/order.png",
+			"selectedIconPath": "/static/order_active.png",
+			"text": "交易记录"
+		}, {
+			"pagePath": "pages/paper/paper",
+			"iconPath": "/static/paper.png",
+			"selectedIconPath": "/static/paper_active.png",
+			"text": "财经快报"
+		}, {
+			"pagePath": "pages/user/user",
+			"iconPath": "/static/user.png",
+			"selectedIconPath": "/static/user_active.png",
+			"text": "个人账户"
+		}]
+	}
+}

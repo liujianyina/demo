@@ -1,0 +1,25 @@
+.login-box {
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	height: 400px;
+	width: 350px;
+}
+
+.login-box .layui-inline{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 350px;
+}
+
+.login-box .reset-btn{
+	width: 120px;
+}
+
+.login-box .submit-btn{
+	width: 200px;
+}

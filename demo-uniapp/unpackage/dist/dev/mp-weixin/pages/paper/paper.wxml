@@ -1,0 +1,1 @@
+<view class="content"><top vue-id="1" bind:__l="__l"></top><cnav vue-id="2" text="正在进行" showLeft="{{true}}" showRight="{{true}}" cright="{{true}}" data-event-opts="{{[['^rightClick',[['reload']]]]}}" bind:rightClick="__e" bind:__l="__l"></cnav></view>

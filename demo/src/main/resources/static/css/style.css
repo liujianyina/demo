@@ -1,0 +1,17 @@
+*{padding: 0;margin: 0;}
+
+.layui-form-pane .layui-form-label{text-align: right;}
+
+.layui-layout-admin .layui-body{padding: 10px;background-color: #F8F8F8;}
+.cont{padding: 10px;display: flex;flex-direction: column;background-color: #FFFFFF;border-radius: 10px}
+.cont .cont-top{height: 30px;display: flex;flex-direction: row;justify-content: space-between;}
+.cont .cont-top .left{display: flex;flex-direction: row;justify-content: flex-start;align-items: center;}
+.cont .cont-top .left input{height: 30px;width: 220px;}
+.cont  button{height: 28px;line-height: 28px;}
+.cont .left input{margin-right: 10px}
+
+.pop-box{padding: 10px}
+.kline-box{width: 780px;height: 580px}
+
+.red{color: #cc1010}
+.blue{color: #0000FF}

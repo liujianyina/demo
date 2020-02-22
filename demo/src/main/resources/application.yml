@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: dev
+  servlet:
+    multipart:
+      max-request-size: 100MB
+      max-file-size: 100MB
+server:
+  port: 7981

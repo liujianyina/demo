@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/login",
+    "pages/register",
+    "pages/product/product",
+    "pages/user/user",
+    "pages/paper/paper",
+    "pages/order/order",
+    "pages/product/buy",
+    "pages/user/tixian"
+  ],
+  "subPackages": [],
+  "window": {},
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/product/product",
+        "iconPath": "/static/product.png",
+        "selectedIconPath": "/static/product_active.png",
+        "text": "商品行情"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "iconPath": "/static/order.png",
+        "selectedIconPath": "/static/order_active.png",
+        "text": "交易记录"
+      },
+      {
+        "pagePath": "pages/paper/paper",
+        "iconPath": "/static/paper.png",
+        "selectedIconPath": "/static/paper_active.png",
+        "text": "财经快报"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "/static/user.png",
+        "selectedIconPath": "/static/user_active.png",
+        "text": "个人账户"
+      }
+    ]
+  },
+  "usingComponents": {
+    "top": "/components/ljy/top",
+    "cnav": "/components/ljy/cnav",
+    "cnull": "/components/ljy/cnull"
+  }
+}

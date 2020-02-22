@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/demo?autoReconnect=true&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: A123456
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+upload-path: d:\\upload\
